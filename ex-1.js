@@ -1,7 +1,10 @@
-let isOver18;
-let hasCriminalBlacklist;
+let isOver18 = true;
+let hasCriminalBlacklist = true;
+//Reassign
+hasCriminalBlacklist = false;
 
-let isAllow;
+let isAllow = true;
+isAllow = isOver18 && !hasCriminalBlacklist;
 
 // Start coding here
 
